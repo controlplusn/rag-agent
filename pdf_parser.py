@@ -13,7 +13,7 @@ source_dir = Path(__file__).resolve().parent
 source = source_dir / "samples" / "RAG.pdf"
 
 converter = DocumentConverter()
-doc = converter.convert(source).document
+doc = converter.convert(source, enable_ocr=True).document
 
 # Save parsed file as markdown
 markdown = doc.export_to_markdown()
