@@ -1,1 +1,7 @@
 venv
+
+.env
+
+# Python packages
+__pycache__/
+*.py[cod]
