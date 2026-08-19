@@ -1,2 +1,14 @@
 docling[easyocr]
 ftfy
+python-dotenv
+
+
+# For langchain application
+langchain
+langchain-community
+langchain_text_splitters
+langchain_core
+langchain-groq
+lanchain-huggingface
+chromadb
+huggingface-transformers
