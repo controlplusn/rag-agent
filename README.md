@@ -160,7 +160,7 @@ OPEN_AI_API=your_openai_api_key   # reserved / optional
 
 `.env` and `venv/` are git-ignored.
 
-## Gotchas
+## Things To Note
 
 - **Docling + Windows:** Docling's layout model runs through `torch.compile()`,
   whose inductor backend needs a C++ compiler (`cl.exe`) on `PATH` — normally
